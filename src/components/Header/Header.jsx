@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -13,6 +12,9 @@ const Header = () => {
       </li>
       <li>
         <NavLink to="/registration"> Registration </NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact"> Contact </NavLink>
       </li>
     </>
   );
@@ -45,6 +47,12 @@ const Header = () => {
               {links}
             </ul>
           </div>
+
+          <img
+            src="https://i.ibb.co/ByhJZsf/lastest-1.png"
+            className="w-20 mt-3"
+            alt="ddd"
+          />
           <a className="btn btn-ghost text-xl">Markazu Ta'leemil Qira'at</a>
         </div>
         <div className="navbar-center hidden lg:flex">
