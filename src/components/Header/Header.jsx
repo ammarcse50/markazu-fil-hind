@@ -60,7 +60,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <img src="/src/Raw/logo.png" className="w-20 mt-3" alt="ddd" />
+          <img src="https://i.ibb.co/JQ3VWbs/logo.png" className="w-20 mt-3" alt="ddd" />
           <NavLink to="/" className="text-xl font-bold">
             Markazu Ta'leemil Qira'at
           </NavLink>

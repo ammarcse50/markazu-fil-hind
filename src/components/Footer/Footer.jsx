@@ -6,11 +6,10 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer text-white p-10 bg-base-200 text-base-content ">
- 
-        <div className="footer md:max-w-6xl md:mx-auto ">
+      <div className="footer md:max-w-6xl md:mx-auto ">
         <aside className="flex flex-col items-center">
           <img
-            src="https://i.ibb.co/ByhJZsf/lastest-1.png"
+            src="https://i.ibb.co/JQ3VWbs/logo.png"
             className="w-[150px]"
             alt=""
           />
@@ -42,7 +41,6 @@ const Footer = () => {
           </div>
         </nav>
       </div>
-     
     </footer>
   );
 };

@@ -40,17 +40,19 @@ const Registration = () => {
       console.error("Error during registration:", error);
     }
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      address: '',
-      profession: '',
+      name: "",
+      email: "",
+      phone: "",
+      address: "",
+      profession: "",
     });
   };
 
   return (
     <div className="w-full max-w-xs mx-auto">
-              <h2 className="bg-orange-500 text-white text-2xl text-center font-semibold ">Course Registration Form</h2>
+      <h2 className="bg-orange-500 text-white text-2xl text-center font-semibold ">
+        Course Registration Form
+      </h2>
       <form
         className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
         onSubmit={handleSubmit}
@@ -63,7 +65,7 @@ const Registration = () => {
           </div>
           <div className="md:w-2/3">
             <input
-            className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
+              className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
               type="text"
               name="name"
               value={formData.name}
@@ -83,7 +85,7 @@ const Registration = () => {
           </div>
           <div className="md:w-2/3">
             <input
-             className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
+              className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
               type="email"
               name="email"
               value={formData.email}
@@ -102,7 +104,7 @@ const Registration = () => {
           </div>
           <div className="md:w-2/3">
             <input
-             className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
+              className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
               type="tel"
               name="phone"
               value={formData.phone}
@@ -120,7 +122,7 @@ const Registration = () => {
           </div>
           <div className="md:w-2/3">
             <input
-             className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
+              className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
               type="text"
               name="address"
               value={formData.address}

@@ -1,7 +1,7 @@
 [
   {
     "ld": 1,
-    "cover": "../src/Raw/hafs.png",
+    "cover": "https://i.ibb.co/fqS7ns6/hafs.png",
     "title": "Hafs an Asim",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
@@ -9,23 +9,23 @@
   },
   {
     "ld": 2,
-    "cover": "../src/Raw/qaloon.png",
-    "title": "Qira'at e Saba'a(القرآءآت السبع)",
+    "cover": "https://i.ibb.co/ZHs60Hd/warsh-an-nafi.png",
+    "title": "Warsh An Nafi",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
     "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
   },
   {
     "ld": 3,
-    "cover": "../src/Raw/warsh_an_nafi.png",
-    "title": "Qira'at e Ashara (القرآءآت العشر)",
+    "cover": "https://i.ibb.co/1zDLSDT/qaloon.png",
+    "title": "Qaloon An Nafi",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
     "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
   },
   {
     "ld": 4,
-    "cover": "../src/Raw/BAZZI.png",
+    "cover": "https://i.ibb.co/93TgQNP/BAZZI.png",
     "title": "Bazzi an ibn khatir",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
@@ -33,8 +33,8 @@
   }
   ,
   {
-    "ld": 4,
-    "cover": "../src/Raw/QNBUL.png",
+    "ld": 5,
+    "cover": "https://i.ibb.co/C2yHxm8/QNBUL.png",
     "title": "Qnbul An Ibn Khatir",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
@@ -42,8 +42,8 @@
   }
   ,
   {
-    "ld": 4,
-    "cover": "../src/Raw/KHALF.png",
+    "ld": 6,
+    "cover": "https://i.ibb.co/1LdgdtY/KHALF.png",
     "title": "Khalf An Hamzah",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
@@ -51,8 +51,8 @@
   }
   ,
   {
-    "ld": 4,
-    "cover": "../src/Raw/KHALLAD.png",
+    "ld": 7,
+    "cover": "https://i.ibb.co/0DTRpz1/KHALLAD.png",
     "title": "Khallad An Hamzah",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
@@ -60,17 +60,25 @@
   }
   ,
   {
-    "ld": 4,
-    "cover": "../src/Raw/sabah.png",
+    "ld": 8,
+    "cover": "https://i.ibb.co/0jHT6p1/sabah.png",
     "title": "Qira'at Saba'a (القراءات السبع)",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
     "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
   },
   {
-    "ld": 3,
-    "cover": "../src/Raw/ashara.png",
+    "ld": 9,
+    "cover": "https://i.ibb.co/nRBvNj4/ashara.png",
     "title": "Qira'at e Ashara (القرآءآت العشر)",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
+  },
+  {
+    "ld": 10,
+    "cover": "https://i.ibb.co/T1q6HM6/rewayat.png",
+    "title": "Single Rewayat",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
     "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"

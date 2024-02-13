@@ -8,7 +8,7 @@ const Home = () => {
                <div className="carousel w-full h-[590px]">
                  <div id="slide1" className="carousel-item relative w-full h-86">
                    <img
-                     src="/src/raw/Light Purple Minimalist Blurred Background Course Banner (1).jpg"
+                     src="https://i.ibb.co/VYhvZKM/Light-Purple-Minimalist-Blurred-Background-Course-Banner-1.jpg"
                      className="w-full"
                    />
                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -22,7 +22,7 @@ const Home = () => {
                  </div>
                  <div id="slide2" className="carousel-item relative w-full ">
                    <img
-                     src="/src/raw/Purple Simple and Bold School Admission Banner (5) (1).jpg"
+                     src="https://i.ibb.co/rHBcHph/Purple-Simple-and-Bold-School-Admission-Banner-5-1.jpg"
                      className="w-full"
                    />
                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -35,7 +35,7 @@ const Home = () => {
                    </div>
                  </div>
                  <div id="slide3" className="carousel-item relative w-full">
-                   <img src="/src/Raw/29144.jpg" className="w-full" />
+                   <img src="https://i.ibb.co/rcSfB9P/29144.jpg" className="w-full" />
                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                      <a href="#slide2" className="btn btn-circle">
                        ❮
@@ -46,7 +46,7 @@ const Home = () => {
                    </div>
                  </div>
                  <div id="slide4" className="carousel-item relative w-full">
-                   <img src="/src/raw/29479.jpg" className="w-full" />
+                   <img src="https://i.ibb.co/tJnK6BS/29479.jpg" className="w-full" />
                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                      <a href="#slide3" className="btn btn-circle">
                        ❮
