@@ -1,27 +1,39 @@
 import { NavLink } from "react-router-dom";
+import { RxDividerVertical } from "react-icons/rx";
 
 const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home </NavLink>
+        <NavLink to="/">
+          Home <RxDividerVertical />
+        </NavLink>
       </li>
 
       <li>
-        <NavLink to="/courses"> Courses </NavLink>
+        <NavLink to="/courses">
+          {" "}
+          Courses <RxDividerVertical />
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/registration"> Registration </NavLink>
+        <NavLink to="/registration">
+          {" "}
+          Registration <RxDividerVertical />
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/contact"> Contact </NavLink>
+        <NavLink to="/contact">
+          {" "}
+          Contact <RxDividerVertical />
+        </NavLink>
       </li>
     </>
   );
 
   return (
     <div>
-      <div className="navbar bg-base-100 flex justify-between">
+      <div className="navbar bg-base-100 text-white flex justify-between ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +57,9 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {links}
+         
             </ul>
+            
           </div>
 
           <img
@@ -53,10 +67,13 @@ const Header = () => {
             className="w-20 mt-3"
             alt="ddd"
           />
-          <a className="btn btn-ghost text-xl">Markazu Ta'leemil Qira'at</a>
+          <NavLink to="/" className="text-xl font-bold">
+            Markazu Ta'leemil Qira'at
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
+          
         </div>
       </div>
     </div>

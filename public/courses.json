@@ -1,0 +1,78 @@
+[
+  {
+    "ld": 1,
+    "cover": "../src/Raw/hafs.png",
+    "title": "Hafs an Asim",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা রেওায়াত হাফস এর বাসিক পডেছেন এবং সনদহীন তাদের জন্য বাধ্যতামূলক।"
+  },
+  {
+    "ld": 2,
+    "cover": "../src/Raw/qaloon.png",
+    "title": "Qira'at e Saba'a(القرآءآت السبع)",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  },
+  {
+    "ld": 3,
+    "cover": "../src/Raw/warsh_an_nafi.png",
+    "title": "Qira'at e Ashara (القرآءآت العشر)",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
+  },
+  {
+    "ld": 4,
+    "cover": "../src/Raw/BAZZI.png",
+    "title": "Bazzi an ibn khatir",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  }
+  ,
+  {
+    "ld": 4,
+    "cover": "../src/Raw/QNBUL.png",
+    "title": "Qnbul An Ibn Khatir",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  }
+  ,
+  {
+    "ld": 4,
+    "cover": "../src/Raw/KHALF.png",
+    "title": "Khalf An Hamzah",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  }
+  ,
+  {
+    "ld": 4,
+    "cover": "../src/Raw/KHALLAD.png",
+    "title": "Khallad An Hamzah",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  }
+  ,
+  {
+    "ld": 4,
+    "cover": "../src/Raw/sabah.png",
+    "title": "Qira'at Saba'a (القراءات السبع)",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+  },
+  {
+    "ld": 3,
+    "cover": "../src/Raw/ashara.png",
+    "title": "Qira'at e Ashara (القرآءآت العشر)",
+    "contact": "https://api.whatsapp.com/send?phone=919954460622",
+
+    "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
+  }
+]

@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'synthwave': ['"Roboto"', 'cursive'],
+      },
+      colors: {
+        primary: '#b10dc9', // Adjust color according to your preference
+        secondary: '#ff8c00',
+      },
+    },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui")
+
+],
 }

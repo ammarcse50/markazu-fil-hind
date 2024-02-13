@@ -7,7 +7,7 @@ import "./index.css";
 import Home from "./components/Home/Home.jsx";
 import Courses from "./components/Courses/Courses.jsx";
 import Registration from "./components/Registration/Registration.jsx";
-import Contact from "./components/Contact/Contact.jsx"
+import Contact from "./components/Contact/Contact.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 
 const router = createBrowserRouter([
@@ -25,11 +25,12 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/Registation",
+        path: "/registration",
         element: <Registration></Registration>,
       },
+
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact></Contact>,
       },
     ],
