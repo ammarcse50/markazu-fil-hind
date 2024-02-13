@@ -12,7 +12,7 @@ const Courses = () => {
 
   return (
     <>
-      <h2 className="mt-6 font-bold text-4xl text-white   text-center">
+      <h2 className="mt-6 font-bold text-4xl md:text-white   text-center">
         {" "}
         <span className=" hover:bg-orange-500 rounded hover:text-white hover:text-2xl stroke-black stroke-2">
           OUR COURSES

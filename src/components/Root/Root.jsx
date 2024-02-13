@@ -4,19 +4,14 @@ import Header from "../Header/Header";
 
 import Footer from "../Footer/Footer";
 
-
 const Root = () => {
-
   return (
     <>
-      <div className="bg-[#3c336b]"> 
       <Header></Header>
 
-        <Outlet></Outlet>
+      <Outlet></Outlet>
 
-        <Footer></Footer></div>
-       
-  
+      <Footer></Footer>
     </>
   );
 };
