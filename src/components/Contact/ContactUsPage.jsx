@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUsPage = () => {
+    const notify = () => toast("Success!");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,6 +40,8 @@ const ContactUsPage = () => {
     } catch (error) {
       console.error("Error during form submission:", error);
     }
+
+    
 
     // After submission, you may want to clear the form fields
     setFormData({
@@ -106,10 +111,11 @@ const ContactUsPage = () => {
         </div>
         <br />
         <div className="flex justify-center">
-          <button type="submit" className="btn  text-white bg-green-500">
+          <button onClick={notify} type="submit" className="btn  text-white bg-green-500">
             Submit
           </button>
         </div>
+        <ToastContainer />
       </form>
     </div>
   );

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Registration = () => {
+  const notify = () => toast("Successfully done!");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -153,10 +156,11 @@ const Registration = () => {
         <br />
         <div className="flex justify-center">
           {" "}
-          <button type="submit" className="btn  text-white bg-green-500">
+          <button onClick={notify} type="submit" className="btn  text-white bg-green-500">
             Submit
           </button>
         </div>
+        <ToastContainer />
       </form>
     </div>
   );
