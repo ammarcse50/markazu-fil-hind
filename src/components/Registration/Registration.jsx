@@ -39,6 +39,13 @@ const Registration = () => {
     } catch (error) {
       console.error("Error during registration:", error);
     }
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      address: '',
+      profession: '',
+    });
   };
 
   return (
