@@ -23,7 +23,7 @@ const Header = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/contact">
+        <NavLink to="/contactuspage">
           {" "}
           Contact <RxDividerVertical />
         </NavLink>
@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="navbar bg-indigo-900 text-white flex justify-between ">
+      <div className="navbar font-bold bg-indigo-900 text-white flex justify-between ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

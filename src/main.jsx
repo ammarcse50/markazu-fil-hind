@@ -7,8 +7,9 @@ import "./index.css";
 import Home from "./components/Home/Home.jsx";
 import Courses from "./components/Courses/Courses.jsx";
 import Registration from "./components/Registration/Registration.jsx";
-import Contact from "./components/Contact/Contact.jsx";
+
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
+import ContactUsPage from "./components/Contact/ContactUsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,8 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/contact",
-        element: <Contact></Contact>,
+        path: "/contactuspage",
+        element: <ContactUsPage></ContactUsPage>,
       },
     ],
   },

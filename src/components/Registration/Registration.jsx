@@ -21,7 +21,7 @@ const Registration = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://sheetdb.io/api/v1/enx2suer2z1ee", {
+      const response = await fetch("https://sheetdb.io/api/v1/k2n5nnza34ld4", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

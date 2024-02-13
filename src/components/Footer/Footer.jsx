@@ -21,10 +21,10 @@ const Footer = () => {
         </aside>
 
         <nav>
-          <h6 className="font-bold text-xl text-white ">Social Connectivity</h6>
+          <h6 className="font-bold text-xl text-white ">SOCIAL CONNECTIVITY</h6>
           <div className="flex gap-4 text-3xl">
             <NavLink to="https://www.facebook.com/profile.php?id=100024729392931">
-              <FaFacebookSquare className="text-[blue]" />{" "}
+              <FaFacebookSquare className="text-[#fe5cd0]" />{" "}
             </NavLink>
             <NavLink
               className="text-[#4af358]"
@@ -33,7 +33,7 @@ const Footer = () => {
               <IoLogoWhatsapp />{" "}
             </NavLink>
             <NavLink
-              className="text-[#f36a44]"
+              className="text-[#ec7756]"
               to="mailto:habibulworis2000@gmail.com"
             >
               <SiGmail />{" "}
@@ -44,5 +44,8 @@ const Footer = () => {
     </footer>
   );
 };
+
+
+
 
 export default Footer;
