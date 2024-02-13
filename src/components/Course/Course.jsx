@@ -7,7 +7,7 @@ const Course = ({course}) => {
 
     return (
         <div>
-       <div className="card w-full h-full bg-green-700 shadow-xl">
+       <div className="card w-full h-full shadow-2xl bg-green-700 shadow-xl">
           <figure className="px-10 pt-10">
             <img
               src={cover}
