@@ -9,7 +9,7 @@ const Root = () => {
 
   return (
     <>
-      <div className="bg-[#b4ace3]"> 
+      <div className="bg-[#3c336b]"> 
       <Header></Header>
 
         <Outlet></Outlet>

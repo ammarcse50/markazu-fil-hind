@@ -57,23 +57,16 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {links}
-         
             </ul>
-            
           </div>
 
-          <img
-            src="https://i.ibb.co/ByhJZsf/lastest-1.png"
-            className="w-20 mt-3"
-            alt="ddd"
-          />
+          <img src="/src/Raw/logo.png" className="w-20 mt-3" alt="ddd" />
           <NavLink to="/" className="text-xl font-bold">
             Markazu Ta'leemil Qira'at
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
-          
         </div>
       </div>
     </div>
