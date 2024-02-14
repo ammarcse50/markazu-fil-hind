@@ -7,11 +7,12 @@ import Footer from "../Footer/Footer";
 const Root = () => {
   return (
     <>
-      <Header></Header>
-
-      <Outlet></Outlet>
-
-      <Footer></Footer>
+    
+          <Header></Header>
+       
+          <Outlet></Outlet>
+          <Footer></Footer>
+    
     </>
   );
 };

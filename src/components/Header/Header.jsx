@@ -32,8 +32,8 @@ const Header = () => {
   );
 
   return (
-    <div>
-      <div className="navbar font-bold bg-indigo-900 text-white flex justify-between ">
+    <div className="sticky top-0 z-10">
+      <div className="navbar  font-bold bg-indigo-900 text-white flex justify-between ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
