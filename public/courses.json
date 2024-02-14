@@ -5,7 +5,7 @@
     "title": "Hafs an Asim",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "Only for NewComer Students"
+    "desc": "যারা ক্বিরাত বিভাগ এ নতুন তাদের জন্য।"
   },
   {
     "ld": 2,
@@ -13,7 +13,7 @@
     "title": "Warsh An Nafi",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "Only for those who completed hafs"
+    "desc": "বিঃ দ্রঃহাফসের সনদ থাকতে হবে ।"
   },
   {
     "ld": 3,
@@ -21,7 +21,7 @@
     "title": "Qaloon An Nafi",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "Only for those who completed hafs"
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
   },
   {
     "ld": 4,
@@ -29,43 +29,39 @@
     "title": "Bazzi an ibn khatir",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
-  }
-  ,
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।।"
+  },
   {
     "ld": 5,
     "cover": "https://i.ibb.co/C2yHxm8/QNBUL.png",
     "title": "Qnbul An Ibn Khatir",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
-  }
-  ,
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
+  },
   {
     "ld": 6,
     "cover": "https://i.ibb.co/1LdgdtY/KHALF.png",
     "title": "Khalf An Hamzah",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
-  }
-  ,
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
+  },
   {
     "ld": 7,
     "cover": "https://i.ibb.co/0DTRpz1/KHALLAD.png",
     "title": "Khallad An Hamzah",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
-  }
-  ,
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
+  },
   {
     "ld": 8,
     "cover": "https://i.ibb.co/0jHT6p1/sabah.png",
     "title": "Qira'at Saba'a (القراءات السبع)",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা হাফস শেষ করেছেন এবং ধারাবাহিক সনদ লাভ করেছেন শুধু তাদের জন্য।"
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
   },
   {
     "ld": 9,
@@ -73,7 +69,7 @@
     "title": "Qira'at e Ashara (القرآءآت العشر)",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
+    "desc": "বিঃ দ্রঃ কিরাত এ সাবা'র ধারাবাহিক সনদ থাকতে হবে"
   },
   {
     "ld": 10,
@@ -81,6 +77,6 @@
     "title": "Single Rewayat",
     "contact": "https://api.whatsapp.com/send?phone=919954460622",
 
-    "desc": "যারা কিরাত এ সাবা'র ধারাবাহিক সনদপ্রাপ্ত শুধু তাদের জন্য।"
+    "desc": "বিঃ দ্রঃ হাফসের সনদ থাকতে হবে ।"
   }
 ]
