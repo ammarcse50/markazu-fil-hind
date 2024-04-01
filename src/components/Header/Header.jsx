@@ -71,7 +71,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 z-10 w-full transition-all duration-500 ${
+      className={`fixed relative top-0 left-0 z-10 w-full transition-all duration-500 ${
         isNavVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

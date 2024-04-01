@@ -60,12 +60,12 @@ const ContactUsPage = () => {
         <span>কোন মতামত থাকলে মেসেজ করুন।</span>
       </h2>
       <form
-        className="bg-white text-white font-semibold shadow-md rounded px-8 pt-6 pb-8 mb-4"
+        className="bg-white  text-black font-semibold shadow-md rounded px-8 pt-6 pb-8 mb-4"
         onSubmit={handleSubmit}
       >
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+            <label className="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4">
               Name
             </label>
           </div>
@@ -73,6 +73,7 @@ const ContactUsPage = () => {
             <input
               type="text"
               name="name"
+              className="input input-bordered  w-full"
               value={formData.name}
               onChange={handleChange}
               required
@@ -81,7 +82,7 @@ const ContactUsPage = () => {
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+            <label className="block  font-bold md:text-right mb-1 md:mb-0 pr-4">
               Email
             </label>
           </div>
@@ -89,6 +90,7 @@ const ContactUsPage = () => {
             <input
               type="email"
               name="email"
+              className="input input-bordered w-full"
               value={formData.email}
               onChange={handleChange}
               required
@@ -105,6 +107,7 @@ const ContactUsPage = () => {
           <div className="md:w-2/3">
             <textarea
               name="message"
+              className="input input-bordered w-full"
               value={formData.message}
               onChange={handleChange}
               required
