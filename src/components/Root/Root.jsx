@@ -14,22 +14,23 @@ const Root = () => {
     setIsDarkTheme(!isDarkTheme);
   };
   return (
-    <div
-      className={` ${
-        isDarkTheme ? "bg-[#1a103d] text-white" : "bg-white text-black"
-      }`}
-    > <button
-        className="fixed bottom-8  right-4 z-50 bg-gray-800 text-white rounded-full p-2"
-        onClick={toggleTheme}
+    <div>
+      <div
+        className={` p-20 ${
+          isDarkTheme ? "bg-[#1a103d] text-white" : "bg-white text-black"
+        }`}
       >
-        
-        <BsMoonStars  size="25px" />
-      </button>
-      <Header></Header>
-     
-      <Outlet></Outlet>
+        {" "}
+        <button
+          className="fixed bottom-8  right-4 z-50 bg-gray-800 text-white rounded-full p-2"
+          onClick={toggleTheme}
+        >
+          <BsMoonStars size="25px" />
+        </button>
+        <Header></Header>
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
-   
     </div>
   );
 };
