@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Course from "../Course/Course";
+import {Helmet} from "react-helmet";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -12,6 +13,7 @@ const Courses = () => {
 
   return (
     <>
+    <Helmet><title>Markazo | Courses</title></Helmet>
       <h2 className="mt-6 font-bold text-4xl md:text-white   text-center">
         {" "}
         <span className=" hover:bg-orange-500 rounded hover:text-white hover:text-2xl stroke-black stroke-2">

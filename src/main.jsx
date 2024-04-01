@@ -11,6 +11,8 @@ import Registration from "./components/Registration/Registration.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import ContactUsPage from "./components/Contact/ContactUsPage.jsx";
 
+import Books from "./components/Books/Books.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/contactuspage",
         element: <ContactUsPage></ContactUsPage>,
+      },
+      {
+        path: "/books",
+        element: <Books></Books>,
       },
     ],
   },

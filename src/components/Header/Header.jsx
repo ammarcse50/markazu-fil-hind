@@ -28,6 +28,12 @@ const Header = () => {
           Contact <RxDividerVertical />
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/books">
+          {" "}
+          Books 
+        </NavLink>
+      </li>
     </>
   );
 

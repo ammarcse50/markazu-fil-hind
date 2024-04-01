@@ -11,7 +11,7 @@ const Course = ({course}) => {
           <figure className="px-10 pt-10">
             <img
               src={cover}
-              alt="Shoes"
+              alt="courses"
               className="rounded-xl"
             />
           </figure>

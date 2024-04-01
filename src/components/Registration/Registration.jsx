@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet";
 
 const Registration = () => {
   const notify = () => toast("Successfully done!");
@@ -10,6 +11,7 @@ const Registration = () => {
     phone: "",
     address: "",
     profession: "",
+    rewayat: ""
   });
 
   const handleChange = (e) => {
@@ -48,12 +50,16 @@ const Registration = () => {
       phone: "",
       address: "",
       profession: "",
+      rewayat: ""
     });
   };
 
   return (
     <>
       <div className="w-full max-w-xs mx-auto">
+        <Helmet>
+          <title>Markazo | Registration</title>
+        </Helmet>
         <h2 className="bg-orange-500 text-white text-2xl text-center font-semibold ">
           Course Registration Form
         </h2>
@@ -149,6 +155,23 @@ const Registration = () => {
                 type="text"
                 name="profession"
                 value={formData.profession}
+                onChange={handleChange}
+                required
+              />
+            </div>
+          </div>
+          <div className="md:flex md:items-center mb-6">
+            <div className="md:w-1/3">
+              <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                Rewayat
+              </label>
+            </div>
+            <div className="md:w-2/3">
+              <input
+                className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
+                type="text"
+                name="rewayat"
+                value={formData.rewayat}
                 onChange={handleChange}
                 required
               />
