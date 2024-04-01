@@ -8,8 +8,10 @@ const Header = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-  const toggleTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
+  const activeStyle = {
+    
+    color: "green",
+    fontWeight: "bold",
   };
   useEffect(() => {
     const handleScroll = () => {
@@ -35,36 +37,35 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">
+        <NavLink to="/" activeStyle={activeStyle}>
           Home <RxDividerVertical />
         </NavLink>
       </li>
 
       <li>
-        <NavLink to="/courses">
+        <NavLink to="/courses" activeStyle={activeStyle}>
           {" "}
           Courses <RxDividerVertical />
         </NavLink>
       </li>
       <li>
-        <NavLink to="/registration">
+        <NavLink to="/registration" activeStyle={activeStyle}>
           {" "}
           Registration <RxDividerVertical />
         </NavLink>
       </li>
       <li>
-        <NavLink to="/contactuspage">
+        <NavLink to="/contactuspage" activeStyle={activeStyle}>
           {" "}
           Contact <RxDividerVertical />
         </NavLink>
       </li>
       <li>
-        <NavLink to="/books">
+        <NavLink to="/books" activeStyle={activeStyle}>
           {" "}
           Books <RxDividerVertical />
         </NavLink>
       </li>
-     
     </>
   );
 
@@ -74,7 +75,7 @@ const Header = () => {
         isNavVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="navbar  font-bold bg-indigo-900 text-white flex justify-between ">
+      <div className="navbar  font-bold bg-[#1a103d] text-white flex justify-between ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -109,8 +110,6 @@ const Header = () => {
           <NavLink to="/" className="text-xl font-bold">
             Markazu Ta'leemil Qira'at
           </NavLink>
-
-        
         </div>
         <div className="navbar-center  hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>

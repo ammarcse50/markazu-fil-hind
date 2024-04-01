@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import {Helmet} from "react-helmet";
 import "react-toastify/dist/ReactToastify.css";
+import WhatsAppIcon from "../whatsappicon/WhatsAppIcon";
 
 const ContactUsPage = () => {
   const notify = () => toast("Success!");
@@ -122,6 +123,7 @@ const ContactUsPage = () => {
         </div>
         <ToastContainer />
       </form>
+      <WhatsAppIcon />
     </div>
   );
 };
