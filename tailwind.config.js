@@ -7,9 +7,11 @@ export default {
 
   daisyui: {
     themes: ["light", "dark", "cupcake",'synthwave',''],
+    
   },
   theme: {
-    extend: {
+    extend: { 
+     
       fontFamily: {
         'synthwave': ['"Roboto"', 'cursive'],
       },

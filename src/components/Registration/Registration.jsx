@@ -11,7 +11,7 @@ const Registration = () => {
     phone: "",
     address: "",
     profession: "",
-    rewayat: ""
+    rewayat: "",
   });
 
   const handleChange = (e) => {
@@ -50,7 +50,7 @@ const Registration = () => {
       phone: "",
       address: "",
       profession: "",
-      rewayat: ""
+      rewayat: "",
     });
   };
 
@@ -169,7 +169,7 @@ const Registration = () => {
             <div className="md:w-2/3">
               <input
                 className="outline bg-green-500 text-white font-semibold hover:outline-dashed outline-red-400"
-                type="text"
+                type="type"
                 name="rewayat"
                 value={formData.rewayat}
                 onChange={handleChange}

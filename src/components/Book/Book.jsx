@@ -5,7 +5,7 @@ const Book = ({ book }) => {
   const { cover, title, author, download_link } = book;
   return (
     <div>
-      <div className="card w-full h-full shadow-2xl bg-indigo-900 shadow-xl">
+      <div className="card w-full h-full shadow-2xl bg-yellow-700 shadow-xl">
   <figure className="px-10 pt-10">
     <img src={cover} alt="books" className="rounded-xl" />
   </figure>
