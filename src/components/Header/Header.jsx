@@ -1,7 +1,37 @@
 import { NavLink } from "react-router-dom";
 import { RxDividerVertical } from "react-icons/rx";
+import { useEffect, useState } from "react";
+import { LuSunMoon } from "react-icons/lu";
 
 const Header = () => {
+  const [isNavVisible, setIsNavVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkTheme(!isDarkTheme);
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      // Get current scroll position
+      const currentScrollPos = window.pageYOffset;
+
+      // Determine scroll direction
+      const isScrollingDown = currentScrollPos > prevScrollPos;
+
+      // Update state based on scroll direction and scroll position
+      setIsNavVisible(isScrollingDown || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    // Add scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up on unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
   const links = (
     <>
       <li>
@@ -31,14 +61,19 @@ const Header = () => {
       <li>
         <NavLink to="/books">
           {" "}
-          Books 
+          Books <RxDividerVertical />
         </NavLink>
       </li>
+     
     </>
   );
 
   return (
-    <div className="sticky top-0 z-10">
+    <div
+      className={`fixed top-0 left-0 z-10 w-full transition-all duration-500 ${
+        isNavVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="navbar  font-bold bg-indigo-900 text-white flex justify-between ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -74,6 +109,8 @@ const Header = () => {
           <NavLink to="/" className="text-xl font-bold">
             Markazu Ta'leemil Qira'at
           </NavLink>
+
+        
         </div>
         <div className="navbar-center  hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>

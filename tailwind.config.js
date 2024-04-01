@@ -6,7 +6,7 @@ export default {
   ],
 
   daisyui: {
-    themes: ["light", "dark", "cupcake",'synthwave',''],
+    themes: ["light", "dark", "cupcake",'synthwave'],
     
   },
   theme: {
@@ -16,8 +16,8 @@ export default {
         'synthwave': ['"Roboto"', 'cursive'],
       },
       colors: {
-        primary: '#b10dc9', // Adjust color according to your preference
-        secondary: '#ff8c00',
+        light: '#ffffff',
+        dark: '#13477d',
       },
     },
   },

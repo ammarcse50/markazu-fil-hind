@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import WhatsAppIcon from "../whatsappicon/WhatsAppIcon";
 
 const Home = () => {
+ 
   return (
     <>
       <Helmet>
