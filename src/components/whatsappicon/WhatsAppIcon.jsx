@@ -20,7 +20,7 @@ const WhatsAppIcon = () => {
 
   return (
     <div
-      className={`fixed right-0 bottom-0 mb-96 m-4 z-50 text-white font-bold flex  items-center hover:text-xl animate-[bounce_1s_ease-in-out_infinite]  ${
+      className={`fixed right-0 bottom-0 md:mb-96 m-4 z-50 text-white font-bold flex  items-center hover:text-xl animate-[bounce_1s_ease-in-out_infinite]  ${
         isVisible ? "block" : "hidden"
       }`}
     >
