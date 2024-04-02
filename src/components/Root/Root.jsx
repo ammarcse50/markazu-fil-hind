@@ -16,7 +16,7 @@ const Root = () => {
   return (
     <div>
       <div
-        className={` p-20 ${
+        className={` md:p-20 ${
           isDarkTheme ? "bg-[#1a103d] text-white" : "bg-white text-black"
         }`}
       >

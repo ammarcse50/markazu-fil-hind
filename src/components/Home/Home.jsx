@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 import WhatsAppIcon from "../whatsappicon/WhatsAppIcon";
 
 const Home = () => {
- 
   return (
     <>
       <Helmet>
@@ -11,7 +10,7 @@ const Home = () => {
       </Helmet>
       {/* carousel  */}
 
-      <div className="carousel md:w-full md:h-[590px]">
+      <div className="carousel mt-32 md:m-0 md:w-full md:h-[590px]">
         <div id="slide1" className="carousel-item relative w-full h-86">
           <img
             src="https://i.ibb.co/VYhvZKM/Light-Purple-Minimalist-Blurred-Background-Course-Banner-1.jpg"
@@ -67,7 +66,7 @@ const Home = () => {
       {/* Cards of courses  */}
 
       <Courses> </Courses>
-      <WhatsAppIcon  />
+      <WhatsAppIcon />
     </>
   );
 };

@@ -9,7 +9,6 @@ const Header = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const activeStyle = {
-    
     color: "green",
     fontWeight: "bold",
   };
