@@ -1,7 +1,6 @@
-
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import "react-toastify/dist/ReactToastify.css";
 import WhatsAppIcon from "../whatsappicon/WhatsAppIcon";
 
@@ -53,73 +52,63 @@ const ContactUsPage = () => {
   };
 
   return (
-    <div className="w-full max-w-xs mx-auto">
-       <Helmet><title>markazo | ContactUs</title></Helmet>
-      <h2 className="bg-orange-500 text-white text-2xl text-center font-semibold ">
-        CONTACT US <br />
-        <span>কোন মতামত থাকলে মেসেজ করুন।</span>
+    <div className="w-full  mx-auto">
+      <Helmet>
+        <title>markazo | ContactUs</title>
+      </Helmet>
+      <h2 className=" text-white text-2xl text-center font-semibold ">
+    
+        <span className="bg-orange-500 rounded p-3"> CONTACT US  <br /> <br />কোন মতামত থাকলে মেসেজ করুন।</span>
       </h2>
-      <form
-        className="bg-white  text-black font-semibold shadow-md rounded px-8 pt-6 pb-8 mb-4"
-        onSubmit={handleSubmit}
-      >
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label className="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4">
-              Name
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              type="text"
-              name="name"
-              className="input input-bordered  w-full"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
+
+      <form onSubmit={handleSubmit} className="md:w-1/2 mx-auto mt-10">
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Name</span>
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="আপনার নাম লিখুন!"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="input input-bordered"
+          />
         </div>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label className="block  font-bold md:text-right mb-1 md:mb-0 pr-4">
-              Email
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              type="email"
-              name="email"
-              className="input input-bordered w-full"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Email</span>
+          </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="আপনার ইমেইল দিন!"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="input input-bordered"
+          />
         </div>
 
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
-              Message
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <textarea
-              name="message"
-              className="input input-bordered w-full"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-          </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Message</span>
+          </label>
+          <textarea
+            className="border-2 p-2 border-sky-200"
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
         <br />
-        <div className="flex justify-center">
+        <div className="text-center">
           <button
             onClick={notify}
             type="submit"
-            className="btn  text-white bg-green-500"
+            className="btn w-1/3 text-white bg-green-500"
           >
             Submit
           </button>
