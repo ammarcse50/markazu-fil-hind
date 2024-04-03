@@ -1,29 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  
-  darkMode: 'class',
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+  // darkMode: "class",
 
   daisyui: {
-    themes: ["light", "dark", "cupcake",'synthwave'],
-    
+    themes: ["retro", "dark", "cupcake", "synthwave", "retro","cyberpunk"],
   },
   theme: {
-    extend: { 
-     
+    extend: {
       fontFamily: {
-        'synthwave': ['"Roboto"', 'cursive'],
+        synthwave: ['"Roboto"', "cursive"],
       },
       colors: {
-        light: '#ffffff',
-        dark: '#13477d',
+        light: "#ffffff",
+        dark: "#13477d",
       },
     },
   },
-  plugins: [require("daisyui")
-
-],
-}
+  plugins: [require("daisyui")],
+};

@@ -8,17 +8,28 @@ const Header = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "cupcake"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "synthwave"
   );
 
-  // useEffect(() => {
-  //   localStorage.setItem("theme", theme);
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
 
-  //   const localTheme = localStorage.getItem("theme");
+    const localTheme = localStorage.getItem("theme");
 
-  //   document.querySelector("html").setAttribute("data-theme", localTheme);
-  // }, [theme]);
+    document.querySelector("html").setAttribute("data-theme", localTheme);
+  }, [theme]);
+      
+    const handleChangeTheme= e=>{
 
+        if(e.target.checked)
+        {
+          setTheme('dark')
+        }
+        else{
+          setTheme('synthwave')
+        }
+
+    }
 
   const activeStyle = {
     color: "green",
@@ -125,7 +136,7 @@ const Header = () => {
         <div className="xl:mr-44">
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
-            <input type="checkbox" />
+            <input type="checkbox" onChange={handleChangeTheme} />
 
             {/* sun icon */}
             <svg
